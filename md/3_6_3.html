@@ -23,7 +23,7 @@
 <link href="3_6_4.html" rel="next"/>
 </head>
 <body>
-<div class="book"><div class="book-summary">
+<div class="book match-braces"><div class="book-summary">
     <div id="book-search-input" role="search">
         <input placeholder="输入并搜索" type="text"/>
     </div>
@@ -661,7 +661,7 @@
                         <h1 id="anchor_1"><a class="anchor-navigation-ex-anchor" href="#anchor_1" name="anchor_1"><i aria-hidden="true" class="fa fa-link"></i></a>软件测试习题</h1>
 <h2 id="anchor_2"><a class="anchor-navigation-ex-anchor" href="#anchor_2" name="anchor_2"><i aria-hidden="true" class="fa fa-link"></i></a>1. 题目</h2>
 <p>已知关系模式：图书（图书编号，图书类型，图书名称，作者，出版社，出版日期，ISBN），图书编号唯一识别一本图书。建立“计算机”类图书的视图 <code class="language-vim">Computer-BOOK</code>，并要求进行修改、插入操作时保证该视图只有计算机类的图书。</p>
-<pre class="line-numbers"><code class="lang-sql">CREATE ( 1 )
+<pre class="line-numbers"><code class="lang-sql rainbow-braces">CREATE ( 1 )
 AS SELECT 图书编号, 图书名称, 作者, 出版社, 出版日期
 FROM 图书
 WHERE 图书类型 =&#x27;计算机&#x27;
